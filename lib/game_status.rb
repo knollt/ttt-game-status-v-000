@@ -52,7 +52,7 @@ end
 def over?(board)
   if won?(board) || full?(board) || draw?(board)
     return true
-  else 
+  else
     return false
   end
 end
@@ -65,8 +65,8 @@ def winner(board)
   else
     if (board[index[0]] == "X")
       return "X won"
-    else 
+    else
       return "O won"  
     end
-  end    
+  end
 end
